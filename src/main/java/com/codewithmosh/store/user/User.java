@@ -1,5 +1,6 @@
-package com.codewithmosh.store.entities;
+package com.codewithmosh.store.user;
 
+import com.codewithmosh.store.entities.Product;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -34,7 +35,7 @@ public class User {
 
     @Column(name = "role")
     @Enumerated(EnumType.STRING)
-    private  Role role;
+    private Role role;
 
     @OneToMany(mappedBy = "user", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, orphanRemoval = true)
     @Builder.Default

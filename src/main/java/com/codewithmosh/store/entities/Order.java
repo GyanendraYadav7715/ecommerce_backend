@@ -1,5 +1,7 @@
 package com.codewithmosh.store.entities;
 
+import com.codewithmosh.store.payments.PaymentStatus;
+import com.codewithmosh.store.user.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

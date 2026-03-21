@@ -1,4 +1,4 @@
-package com.codewithmosh.store.exceptions;
+package com.codewithmosh.store.user;
 
 public class UserNotFoundException extends RuntimeException{
 }

@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dtos;
+package com.codewithmosh.store.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
